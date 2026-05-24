@@ -18,14 +18,13 @@ Para masnter a organização, tente seguir esta estrutura de pastas:
 
 ```text
 /
-├── 2025/
-│   ├── Fase_1/
-│   │   ├── Modalidade_Iniciante/
-│   │   │   ├── solucao_maria.py
-│   │   │   └── solucao_joao.cpp
-│   │   └── Modalidade_Universitaria/
-│   └── Fase_2/
-└── 2026/
+└── 2025
+    └── Nível (Ex: Nível_Universitario)
+       └── Fase (Ex: Fase_1, Fase_2)
+          └── Nome_da_Questao
+             ├── solucao_wictor.py
+             └── solucao_vicente.c   
+             
 ```
 
 ## Regras de Convivência
