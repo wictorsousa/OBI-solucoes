@@ -16,12 +16,16 @@ Para enviar a sua solução, siga o fluxo padrão do GitHub:
 
 Para masnter a organização, tente seguir esta estrutura de pastas:
 
+```text
 /
-└── Nível (Ex: Iniciante, Nível 1)/
-    └── Fase (Ex: Fase 1, Fase 2)/
-        └── Nome_da_Questão/
-            ├── solucao_alunoA.py
-            └── solucao_alunoB.cpp
+├── 2025/
+│   ├── Fase_1/
+│   │   ├── Modalidade_Iniciante/
+│   │   │   ├── solucao_maria.py
+│   │   │   └── solucao_joao.cpp
+│   │   └── Modalidade_Universitaria/
+│   └── Fase_2/
+└── 2026/
 
 ## Regras de Convivência
   * Respeite o código do colega. Comentários construtios são sempre bem-vindos!
