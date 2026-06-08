@@ -1,4 +1,4 @@
-# Fundamento de Programação: Dados e Variáveis em C
+# Fundamentos de Programação: Dados e Variáveis em C
 
 ---
 
