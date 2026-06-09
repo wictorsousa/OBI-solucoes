@@ -102,7 +102,7 @@ A **recursividade** ocorre quando uma função chama a si mesma para resolver su
 2. **Caso Recursivo:** A chamada da própria função, aproximando-se progressivamente do caso base.
 
 #### Exemplo Clássivo: Fatorial
-O fatorial de um numero o $N$ é definido com é definido como $N \times (N-1)!$, sendo que o fatorial de 0 ou 1 é igual a 1.
+O fatorial de um número $N$ é definido como $N \times (N-1)!$, sendo que o fatorial de 0 ou 1 é igual a 1.
 
 ```c
 #include <stdio.h>
