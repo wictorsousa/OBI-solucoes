@@ -28,7 +28,7 @@ int main(){
 
 ---
 
-## 1. Pilha de Execução
+## Pilha de Execução
 A **Pilha de Execução** é a estrutura de memória (do tipo LIFO - *Last In, First Out*) que o sistema operacional utiliza para gerenciar as chamadas de funções de um programa.
 
 Cada vez que uma função é chamada:
@@ -40,7 +40,7 @@ Se uma função chamar muitas outras sem liberar memória (como uma recursão in
 
 ---
 
-## 2. Ponteiros
+## Ponteiros
 Um **ponteiro** é uma variável especial que, em vez de armazenar um valor comum (como um número ou texto), armazena um **endereço de memória** de outra variável.
 Os ponteiros são fundamentais em C para permitir a manipulação direta da memória e a passagem de parâmetros por referência.
 
@@ -64,7 +64,7 @@ int main(){
     return 0;
 }
 ```
-## 3. Escopo de Variáveis
+## Escopo de Variáveis
 O **escopo** determina a visibilidade e o tempo de vida de uma variável dentro do programa. Em C, o escopo é delimitado por chaves `{}`.
 
 #### Variáveis Locais
@@ -95,7 +95,7 @@ int main(){
 
 ---
 
-## 4. Recursividade
+## Recursividade
 A **recursividade** ocorre quando uma função chama a si mesma para resolver subproblemas de um problema maior. Para que uma função recursiva funcione corretamente e não trave o computador, ela precisa obrigatoriamente de dois componentes:
 
 1. **Caso Base (Condição de Parada):** Uma condição simples que interrompe as chamadas sucessivas e inicia o retorno da pilha.
