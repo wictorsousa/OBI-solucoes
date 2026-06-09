@@ -8,7 +8,7 @@ Um **vetor** (ou *array* unidimensional) é uma estrutura de dados homogênea e 
 
 ---
 
-## 1. Declaração
+## Declaração
 
 Para declarar um vetor em C, você precisa especificar o tipo de dado dos elementos, o nome do vetor e a quantidade de posições (tamanho) que ele terá entre colchetes `[ ]`.
 
@@ -27,7 +27,7 @@ char letras[20];    // Aloca espaço para 20 caracteres
 
 ---
 
-## 2. Referência
+## Referência
 O acesso ou referência a cada elemento do vetor é feito através de um **índice**.
 
 Em C, os índices de um vetor sempre começam de **zero (0)** e vão até o **tamanho - 1**.
@@ -43,7 +43,7 @@ Em C, o nome de um vetor é, na realidade, um ponteiro constante que aponta para
 
 ---
 
-## 3. Inicialização
+## Inicialização
 Existem diferentes formas de inicializar um vetor em C:
 
 #### Inicialização Direta (na Declaração)
@@ -69,7 +69,7 @@ int valores[5] = {1, 2}; // Posições [0]=1, [1]=2, [2]=0, [3]=0, [4]=0
 
 ---
 
-## 4. Percorrimento 
+## Percorrimento 
 Como os vetores possuem uma estrutura sequencial, a forma mais eficiente de acessar, ler ou modificar seus dados é utilizando estruturas de repetição (laços). O laço `for` é o mais indicado, pois sabemos previamente o tamanho do vetor.
 
 ### Exemplo de Leitura e Exibição
@@ -91,7 +91,7 @@ int main() {
 
 ---
 
-## 5. Passagem de Vetores para Funções
+## Passagem de Vetores para Funções
 Ao passar um vetor como parâmentro para uma função em C, ele é **sempre passado por referência** (através do endereço do seu primeiro elemento). Isso significa que qualquer alteração feita no vetor dentro da função irá modificar o vetor original.
 
 *Boa prática:* Como a função não sabe o tamanho do vetor recebido, é altamente recomendado passar o **tamanho do vetor** como um segundo parâmetro.
