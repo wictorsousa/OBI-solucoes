@@ -19,7 +19,7 @@ Para entender a alocação dinâmica, precisamos visualizar a memória RAM divid
 
 ---
 
-## Ferramentas de Alocaçao em C
+## Ferramentas de Alocação em C
 Para gerenciar o espaço no **Heap**, a linguagem C disponibiliza quatro funções fundamentais através da biblioteca padrão `<stdlib.h>`.
 
 Toda vez que solicitamos memória no Heap, o sistema operacional nos devolve um **ponteiro** apontando para o primeiro byte desse bloco reservado.
