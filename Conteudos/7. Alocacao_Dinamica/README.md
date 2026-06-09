@@ -19,7 +19,7 @@ Para entender a alocação dinâmica, precisamos visualizar a memória RAM divid
 
 ---
 
-## Ferramentas de Aloca~çao em C
+## Ferramentas de Alocaçao em C
 Para gerenciar o espaço no **Heap**, a linguagem C disponibiliza quatro funções fundamentais através da biblioteca padrão `<stdlib.h>`.
 
 Toda vez que solicitamos memória no Heap, o sistema operacional nos devolve um **ponteiro** apontando para o primeiro byte desse bloco reservado.
@@ -32,7 +32,7 @@ Toda vez que solicitamos memória no Heap, o sistema operacional nos devolve um 
 | `free()` | (*Deallocation*) Devolve a memória reservada de volta para o sistema operacional. |
 
 ### Exemplo Prático
-Usamos o operador `sizeof`para garantir que o programa peça o tamanho exato do tipo de dado em bytes(um ìnt`geralmente ocupa 4 bytes).
+Usamos o operador `sizeof` para garantir que o programa peça o tamanho exato do tipo de dado em bytes(um ìnt`geralmente ocupa 4 bytes).
 ```c
 #include <stdio.h>
 #include <stdlib.h> // Biblioteca necessária para usar malloc e free
