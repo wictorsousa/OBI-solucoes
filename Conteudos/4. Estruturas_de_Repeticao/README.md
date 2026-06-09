@@ -6,7 +6,7 @@ Na linguagem C, trabalhamos principalmente com três estruturas: `while`, `do/wh
 
 ---
 
-## 1. Estrutura `while` (Enquanto)
+## Estrutura `while` (Enquanto)
 O bloco de código interno é repetido enquanto a condição testada for verdadeira. A checagem da condição ocorre **antes** de entrar no bloco de execução.
 
 ### Sintaxe do `while`
