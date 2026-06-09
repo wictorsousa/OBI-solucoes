@@ -6,7 +6,7 @@ Na linguagem C, as principais estruturas de seleção são: `if`, `if/else` e `s
 
 ---
 
-## 1. Estrutura `if`
+## Estrutura `if`
 A instrução `if` (se) avalia uma condição simples. Se o resultado for verdadeiro, o bloco de código interno é executado.
 
 ### Sintaxe do `if`
@@ -20,7 +20,7 @@ if( condição ){
 
 ---
 
-## 2. Estrutura `if/else`
+## Estrutura `if/else`
 O bloco `if/else` (se/senão) é utilizado quando deseja-se executar instruções caso a condição IF seja falsa. Ele divide o fluxo em duas vias mutualmente exclusivas.
 
 ### Sintaxe do `if/else`
