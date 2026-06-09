@@ -17,7 +17,7 @@ Para que o processador execute qualquer intrução, ele precisa de uma **express
        
 ---
 
-## 2. Operadores Aritméticos
+## Operadores Aritméticos
 
 Os operadores aritméticos realizam computações matemáticos. 
 
@@ -31,7 +31,7 @@ Os operadores aritméticos realizam computações matemáticos.
 
 ---
 
-## 3. Precedência Completa e Associativa
+## Precedência Completa e Associativa
 
 Quando múltiplos operadores estão na mesma linha de código, o compilador do C os resolve aplicando regras estritas de **Precedência** (prioridade) e **Associatividade** (direção da leitura: da esquerda para a direita ou vice-versa).
 
@@ -69,7 +69,7 @@ Quando o compilador de C encontra a expressão `!0`, ele executa o seguinte raci
 
 ---
 
-### 4. Operadores Relacionais
+### Operadores Relacionais
 
 Os operadores relacionais comparam a magnitude ou igualdade de dois operandos.
 
@@ -115,7 +115,7 @@ int main(){
 
 ---
 
-## 5. Operadores Lógicos
+## Operadores Lógicos
 
 Servem para combinar subexpressões lógicas/relacionais atráves da álgebra booleada.
 
@@ -125,7 +125,7 @@ Servem para combinar subexpressões lógicas/relacionais atráves da álgebra bo
 | `\|\|` | **OR** (OU) | Retorna `1` se **pelo menos uma** das condições for verdadeira. |
 | `!` | **NOT** (NÃO) | Inverte o estado lógico. `!0` vira `1`. `!5` vira `0`. |
 
-### 5.1. Tabela Verdade dos Operadores Binários: `&&` (AND) e `||` (OR)
+### Tabela Verdade dos Operadores Binários: `&&` (AND) e `||` (OR)
 
 Estes operadores avaliam duas subexpressões simultaneamente para gerar um único resultado lógico (`0` ou `1`).
 
@@ -142,7 +142,7 @@ Estes operadores avaliam duas subexpressões simultaneamente para gerar um únic
 
 ---
 
-### 5.2. Tabela Verdade do Operador Unário: `!` (NOT / Negação)
+### Tabela Verdade do Operador Unário: `!` (NOT / Negação)
 
 O operador `!` atua sobre um único operando posicionado à sua direita, invertendo o seu estado lógico atual.
 
